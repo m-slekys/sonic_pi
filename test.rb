@@ -1,5 +1,7 @@
 # Welcome to Sonic Pi v3.1
+#
 path='C:\Users\Mantas\Desktop\SONIC_PI'
+#chage path to local project folder
 
 while (true)
   
