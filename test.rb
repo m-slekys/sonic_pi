@@ -1,5 +1,10 @@
 # Welcome to Sonic Pi v3.1
+path='C:\Users\Mantas\Desktop\SONIC_PI'
+
 while (true)
+  
+  
+  
   play chord(:A,:major)
   sleep 1
   play chord(:A,:major)
@@ -18,8 +23,8 @@ while (true)
   play chord(:D,:major)
   sleep 1
   play chord(:D,:major)
-  sleep 0.5
-  run_file "splurge.rb"
-  
+  sleep 0.3
+  run_file path+'\splurge.rb'
+  sleep 0.7
   
 end
