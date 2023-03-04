@@ -1,7 +1,8 @@
-# Welcome to Sonic Pi v3.1
+# Set :rfpath var in `./.sonic-pi/init.rb` by adding this line:
+# `set :rfpath, "path/to/this/dir"`
 #
-path='C:\Users\Mantas\Desktop\SONIC_PI'
-#chage path to local project folder
+# More details: https://in-thread.sonic-pi.net/t/relative-paths-for-run-file/804/2
+path=get(:rfpath)
 
 while (true)
   
@@ -26,7 +27,7 @@ while (true)
   sleep 1
   play chord(:D,:major)
   sleep 0.3
-  run_file path+'\splurge.rb'
+  run_file path+'splurge.rb'
   sleep 0.7
   
 end
