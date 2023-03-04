@@ -1,6 +1,6 @@
 # Welcome to Sonic Pi v3.1
 #
-path='C:\Users\Mantas\Desktop\SONIC_PI'
+path=get(:rfpath)
 #chage path to local project folder
 
 while (true)
@@ -26,7 +26,7 @@ while (true)
   sleep 1
   play chord(:D,:major)
   sleep 0.3
-  run_file path+'\splurge.rb'
+  run_file path+'splurge.rb'
   sleep 0.7
   
 end
