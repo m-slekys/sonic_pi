@@ -1,7 +1,8 @@
-# Welcome to Sonic Pi v3.1
+# Set :rfpath var in `./.sonic-pi/init.rb` by adding this line:
+# `set :rfpath, "path/to/this/dir"`
 #
+# More details: https://in-thread.sonic-pi.net/t/relative-paths-for-run-file/804/2
 path=get(:rfpath)
-#chage path to local project folder
 
 while (true)
   
